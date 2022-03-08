@@ -1,0 +1,164 @@
+/* default */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(13, 17, 23);
+}
+
+/* default */
+
+/* form */
+
+.searchForm{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 50px 0;
+}
+
+input {
+    border: 2px solid gray;
+    border-radius: 5px;
+    background: none;
+    padding: 5px;
+    color: white;
+    outline: none;
+}
+
+button{
+    border: 2px solid gray;
+    border-radius: 5px;
+    background: none;
+    padding: 5px;
+    color: white;
+}
+
+/* form */
+
+/* main */
+
+#main {
+    padding: 50px 0;
+}
+
+.profile {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.repositories {
+    width: 70%;
+}
+
+
+/* profile */
+
+.first__output {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.first__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 5px;
+}
+
+.follow__box {
+    color: #8c8f93;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    width: 100%;
+}
+
+.profile__img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+}
+
+.profile__title {
+    margin-top: 20px;
+    color: #c9d1d9;
+}
+
+.profile__login {
+    margin-top: 10px;
+    color: #8c8f93;
+    font-size: 20px;
+}
+
+.profile__follow {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+
+.profile__follow-followers, .profile__follow-following {
+    cursor: pointer;
+    color: #8c8f93;
+}
+
+.followBox__followin {
+    text-decoration: none;
+    color: #8c8f93;
+}
+
+.follow__follower {
+    text-decoration: none;
+    color: #8c8f93;
+}
+
+/* profile */
+
+
+/* repositories*/
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 16px;
+}
+
+.repos__box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 5px;
+    row-gap: 31px;
+    padding: 16px
+}
+
+.repos__name {
+    color: #58a6ff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.repos__language {
+    color: #8c8f93;
+}
+
+/* repositories */
+
+
+/* main */
